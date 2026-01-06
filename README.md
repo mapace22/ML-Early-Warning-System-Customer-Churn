@@ -41,8 +41,10 @@ The Random Forest classifier was chosen as the champion model for its high preci
 
 ## 📦 Deployment Ready
 Serialized assets are provided in the `/models` directory for production integration:
-* `rf_best_model.joblib`: Optimized Random Forest Classifier.
+* `rf_best_model.joblib`: Optimized Random Forest Classifier. 
 * `scaler.joblib`: Pre-fitted standardizer for consistent data preprocessing.
+
+**Note:** The final Random Forest model (263MB) is not included in the repository due to GitHub storage limits. However, the full training pipeline is available in the notebook to reproduce the results.
 
 ## 💰 Business ROI
 1.  **Churn Mitigation:** Proactively intervene with the 83% accurately identified high-risk customers.
